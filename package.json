@@ -1,0 +1,25 @@
+{
+  "name": "fonis_web_training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^25.5.1",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^4.2.5",
+    "jest": "^25.5.4"
+  }
+}
