@@ -1,6 +1,6 @@
 import getPropsLongerThan5 from './get-props-longer-than-5';
 
-xdescribe('retrun properties with length greater than 5', () => {
+describe('retrun properties with length greater than 5', () => {
   const obj = {
     ime: 'vuk',
     prezime: 'stefanovic',

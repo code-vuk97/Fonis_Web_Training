@@ -1,6 +1,6 @@
 import longestWordInString from './longestWordInString';
 
-xdescribe('longest word in a string', () => {
+describe('longest word in a string', () => {
   it('should return a number', () => {
     expect(typeof longestWordInString("The quick brown fox jumped over the lazy dog")).toBe('number');
   });

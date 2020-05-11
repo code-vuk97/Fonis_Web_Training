@@ -1,7 +1,7 @@
 import Dog from './define-a-constructor-function';
 
-xdescribe('make a dog constructor function', () => {
-  const newDog = Dog('snuppy', 'white', 4);
+describe('make a dog constructor function', () => {
+  const newDog = new Dog('snuppy', 'white', 4);
 
   it('should have a name property set to a string', () => {
     expect(typeof newDog.name).toBe('string');

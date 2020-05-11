@@ -1,6 +1,6 @@
 import convertToFahrenheit from './convertToFahrenheit';
 
-xdescribe('convert celsius to fahrenheit', () => {
+describe('convert celsius to fahrenheit', () => {
   it('should return a number', () => {
     expect(typeof convertToFahrenheit(0)).toBe('number');
   })
