@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Bebas";
+    src: url(./fonts/bebaskai-regular.otf);
+}
+/*----------HEADER------------*/
+
+header{
+    background: #f1b150;
+    position: relative;
+}
+nav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    padding: 1rem 0rem;
+}
+h1{
+    font-family: "Bebas",sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------HOME PAGE------*/
+
+#home{
+    min-height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.home-text h1{
+    padding-top: 1.5rem;
+    color: #f1b150;
+    font-size: 7rem;
+    letter-spacing: 10px;
+      
+}
+.home-text h3{
+    align-items: center;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-text{
+    text-align: center;   
+
+}
+.home-img{
+    position: relative;
+}
+.naslovna{
+  width: 100%;
+  
+}
+
+/*---------CARDS PAGE------------*/
+
+#cards{
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.text-new{
+    font-size: 4rem;
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 0;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    
+}
+.card-img{
+    flex:50%;
+}
+.card-img img{
+    width: 100%;
+
+}
+.card-text{
+    display: flex;
+    flex:50%;
+    flex-direction: column;
+
+}
+.card-text2{
+    display: flex;
+    flex-direction: column;
+    flex:50%;
+
+ }
+.card-text h1{
+    padding: 10rem 2rem 2rem;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.card-text h3{
+    padding:  0rem 2rem;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace
+}
+.card-text button{
+    margin: 2rem 2rem;
+    background: #f1b150;
+    padding:1rem 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 1rem;
+    width: 30%;
+ }
+.card-text2 h1{
+    padding: 10rem 2rem 2rem;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.card-text2 h3{
+    padding:  0rem 2rem;
+    font-size: 32px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace
+}
+.card-text2 .button2{
+    margin: 2rem 2rem;
+    background: #f1b150;
+    padding:1rem 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 1rem;
+    width: 30%;
+    align-self: flex-end;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+.card2{
+    display: flex;
+    flex-direction:row-reverse;
+    
+}
+
+/*-------------COLLAGE FAIR AND SOCIALS----------*/
+
+
+#social{
+    min-height: 80vh;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.card3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem; 
+}
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f1b150;
+    padding-bottom: 3rem;
+}
+.social-media h3{
+    padding:2rem 0rem 2rem 0rem;
+}
+
+
+/* ------FOOTER-------*/
+
+
+footer{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+footer a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
